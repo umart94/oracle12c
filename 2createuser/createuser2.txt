@@ -1,0 +1,11 @@
+CREATE USER umartariq identified by umartariq;
+GRANT CONNECT,RESOURCE,DBA to umartariq;
+GRANT CREATE SESSION, GRANT ANY PRIVILEGE TO umartariq;
+GRANT UNLIMITED TABLESPACE TO umartariq;
+
+
+
+CREATE USER electronicsstore identified by umartariq;
+GRANT CONNECT,RESOURCE,DBA to electronicsstore;
+GRANT CREATE SESSION, GRANT ANY PRIVILEGE TO electronicsstore;
+GRANT UNLIMITED TABLESPACE TO electronicsstore;

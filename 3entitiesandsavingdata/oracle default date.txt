@@ -1,0 +1,14 @@
+oracle default date format is DD-MON-YY
+
+like 08-JAN-22
+
+this is troublesome,
+
+we want to change it 
+
+so we can do so only for current session of database.
+
+alter session set NLS_DATE_FORMAT='YYYY-MM-DD';
+
+
+now date will get inserted successfully
